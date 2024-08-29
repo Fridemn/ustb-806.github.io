@@ -1,0 +1,18 @@
+---
+title: "新闻"
+permalink: /news
+layout: splash
+---
+
+<div class="archive-group">
+  <div class="archive-group__item">
+    <h3 class="archive__subtitle">
+      <a href="{{ "/news/" | relative_url }}">新闻</a>
+    </h3>
+    {%- comment %} Combined news and planet {% endcomment -%}
+    {% assign posts = site.news | sort: 'date' | reverse %}
+    {% for post in posts %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div>
+</div>
