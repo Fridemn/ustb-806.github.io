@@ -112,22 +112,6 @@ analytics:
 
 
 # Site Author
-# author:
-#   name             : "Nuoxian WANG"
-#   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-#   bio              : "I am an **FREAKING AMAZING** person."
-#   location         : "30, Xueyuan Rd., Beijing, China"
-#   email            :
-#   links:
-#     - label: "Email"
-#       icon: "fas fa-fw fa-envelope-square"
-#       url: "mailto:806@ustb.edu.cn"
-#     - label: "Website"
-#       icon: "fas fa-fw fa-link"
-#       # url: "https://your-website"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/ustb-806"
 
 
 # Site Footer
@@ -136,6 +120,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/ustb-806
+
+# Collections
+collections_dir: pages
 
 
 # Reading Files
