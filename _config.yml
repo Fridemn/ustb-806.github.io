@@ -20,13 +20,13 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "USTB 806 Lab"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Nuoxians"
+name                     : 
 description              : "An AMAZING website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ustb-806.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "ustb-806/ustb-806.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -112,22 +112,22 @@ analytics:
 
 
 # Site Author
-author:
-  name             : "Nuoxian WANG"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **FREAKING AMAZING** person."
-  location         : "30, Xueyuan Rd., Beijing, China"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:806@ustb.edu.cn"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ustb-806"
+# author:
+#   name             : "Nuoxian WANG"
+#   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+#   bio              : "I am an **FREAKING AMAZING** person."
+#   location         : "30, Xueyuan Rd., Beijing, China"
+#   email            :
+#   links:
+#     - label: "Email"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: "mailto:806@ustb.edu.cn"
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       # url: "https://your-website"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/ustb-806"
 
 
 # Site Footer
@@ -135,7 +135,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/ustb-806
 
 
 # Reading Files
